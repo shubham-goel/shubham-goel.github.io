@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /*/wiki/*
+Disallow: /js
+Disallow: /css/
+Disallow: /pdf.js/
+Disallow: /css/
+Disallow: /images/
+Disallow: /font/
+Disallow: /aboutMe.html
+Disallow: /contact.html
+Disallow: /projects.html
+Disallow: /resume.html
+Disallow: /mySite/

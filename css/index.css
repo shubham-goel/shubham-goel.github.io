@@ -1,0 +1,17 @@
+header, main, footer {
+	padding-left: 290px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+
+ul.bulleted{
+	list-style-type: square; 
+}
+
+ul.bulleted > li{
+	list-style-type: square; 
+}
