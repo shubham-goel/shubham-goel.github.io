@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210.39456mm"
+   height="120.8771mm"
+   viewBox="0 0 745.49254 428.30468"
+   id="svg5257"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="room inside.svg">
+  <defs
+     id="defs5259">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="91.428566 : 450.4668 : 1"
+       inkscape:vp_y="370.61866 : 922.21593 : 1"
+       inkscape:vp_z="355.52305 : 433.32395 : 1"
+       inkscape:persp3d-origin="372.04723 : 350.78739 : 1"
+       id="perspective5805" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="356.27952"
+     inkscape:cy="176.33555"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5262">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-359.39755)">
+    <rect
+       style="opacity:0.29300005;fill:#0000ff;fill-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect5901"
+       width="517.98169"
+       height="244.70589"
+       x="35.714283"
+       y="517.65631" />
+    <rect
+       y="390.93365"
+       x="196.59753"
+       height="244.70589"
+       width="516.97156"
+       id="rect5903"
+       style="opacity:0.41;fill:#0000ff;fill-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       style="opacity:0.323;fill:#33fc00;fill-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 37.859392,519.11292 196.59753,390.93364 198.74266,634.18294 35.714279,757.99246 Z"
+       id="rect5905"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path5908"
+       d="m 554.831,519.11292 158.73814,-128.17928 2.14512,243.2493 -163.02837,123.80952 z"
+       style="opacity:0.402;fill:#00ff00;fill-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       transform="matrix(1,0,-0.77492811,0.63204939,0,0)"
+       y="1023.0973"
+       x="937.81067"
+       height="100.1145"
+       width="68.06675"
+       id="bench"
+       style="opacity:1;fill:#552200;fill-opacity:1"
+       inkscape:label="#rect5912"
+       onmouseover="over();"
+       onmouseout="out();"
+       />
+       <script type="text/javascript">
+        function over() {
+        var t = document.getElementById("main_text");
+        t.innerHTML="Bench";
+        }
+        function out() {
+        var t = document.getElementById("main_text");
+        t.innerHTML="Yoga Room";
+        }
+        </script>
+    <rect
+       style="opacity:0.89499996;fill:#552200;fill-opacity:1"
+       id="rect5924"
+       width="8.0812206"
+       height="21.213203"
+       x="71.619308"
+       y="710.02203" />
+    <rect
+       y="710.02203"
+       x="123.61931"
+       height="21.213203"
+       width="8.0812206"
+       id="rect5926"
+       style="opacity:0.89499996;fill:#552200;fill-opacity:1" />
+    <rect
+       style="opacity:0.89499996;fill:#552200;fill-opacity:1"
+       id="rect5928"
+       width="8.0812206"
+       height="21.213203"
+       x="195.61931"
+       y="646.02203" />
+    <rect
+       y="646.02203"
+       x="145.61931"
+       height="21.213203"
+       width="8.0812206"
+       id="rect5930"
+       style="opacity:0.89499996;fill:#552200;fill-opacity:1" />
+    <rect
+       style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4144"
+       width="72.552719"
+       height="112.12694"
+       x="317.32556"
+       y="651.31134" />
+    <rect
+       y="780.12769"
+       x="342.81015"
+       height="112.12694"
+       width="58.736462"
+       id="door"
+       style="opacity:0.71399997;fill:#803300;fill-opacity:1;stroke:none;stroke-width:1.03937991;stroke-miterlimit:4;stroke-dasharray:3.11813972,3.11813972;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0.92565972,-0.37835709,0,1,0,0)"
+       inkscape:label="#rect4696" onmouseover="door_over();"
+       onmouseout="door_out();"
+       />
+       <script type="text/javascript">
+        function door_over() {
+        var t = document.getElementById("main_text");
+        t.innerHTML="Door";
+        }
+        function door_out() {
+        var t = document.getElementById("main_text");
+        t.innerHTML="Yoga Room";
+        }
+        </script>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="285.87317"
+       y="507.88998"
+       id="text4698"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="main_text"
+         x="285.87317"
+         y="507.88998"
+         style="font-size:30px">Yoga Room</tspan></text>
+  </g>
+</svg>
+
