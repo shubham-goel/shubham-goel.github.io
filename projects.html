@@ -106,7 +106,8 @@
 									Autumn 2016</span>
 								</div>
 								<p>
-									Built an image regularization and in-painting tool in Matlab by implementing Oriented Laplacian PDE based techniques mentioned in <a target="_blank" href="https://tschumperle.users.greyc.fr/publications/tschumperle_pami05.pdf">this paper</a> (which take inspiration from the heat equation), while making emperical observations on small data sets.
+									<!-- Built an image regularization and in-painting tool in Matlab by implementing Oriented Laplacian PDE based techniques mentioned in <a target="_blank" href="https://tschumperle.users.greyc.fr/publications/tschumperle_pami05.pdf">this paper</a> (which take inspiration from the heat equation), while making emperical observations on small data sets. -->
+									We used a generic anisotropic diffusion equation which provides a simple interpretation of the regularization process in terms of local filtering with spatially adaptive Gaussian kernels (from <a target="_blank" href="https://tschumperle.users.greyc.fr/publications/tschumperle_pami05.pdf">this paper</a>). Then, used the solution of the PDE for various applications, such as image restoration, inpainting, magnification, flow visualization by specializing the generic PDE for fulfilling desired smoothing behaviors. Finally, we implemented the same in Matlab and tuned the parameters for getting desired results on a small data set. 
 								</p>
 							</div>
 						</div>
