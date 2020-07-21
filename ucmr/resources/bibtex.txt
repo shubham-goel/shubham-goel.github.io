@@ -1,0 +1,8 @@
+@inProceedings{ucmrGoel20,
+  title={Shape and Viewpoints without Keypoints},
+  author = {Shubham Goel and
+  Angjoo Kanazawa and
+  and Jitendra Malik},
+  booktitle={ECCV},
+  year={2020}
+}
