@@ -1,0 +1,8 @@
+@misc{goel2021differentiable,
+      title={Differentiable Stereopsis: Meshes from multiple views using differentiable rendering},
+      author={Shubham Goel and Georgia Gkioxari and Jitendra Malik},
+      year={2021},
+      eprint={2110.05472},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
