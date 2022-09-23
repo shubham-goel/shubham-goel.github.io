@@ -1,8 +1,8 @@
-@misc{goel2021differentiable,
-      title={Differentiable Stereopsis: Meshes from multiple views using differentiable rendering},
-      author={Shubham Goel and Georgia Gkioxari and Jitendra Malik},
-      year={2021},
-      eprint={2110.05472},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{goel2022differentiable,
+    author    = {Goel, Shubham and Gkioxari, Georgia and Malik, Jitendra},
+    title     = {Differentiable Stereopsis: Meshes From Multiple Views Using Differentiable Rendering},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {8635-8644}
 }
