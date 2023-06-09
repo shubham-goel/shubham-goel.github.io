@@ -21,11 +21,15 @@
         font-size:18px;
         margin-left: auto;
         margin-right: auto;
-        width: 1100px;
+        width: 1000px;
     }
 
     h1 {
         font-weight:300;
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
     }
 
     .disclaimerbox {
@@ -37,29 +41,6 @@
         padding: 20px;
     }
 
-    video.header-vid {
-        height: 140px;
-        border: 1px solid black;
-        border-radius: 10px ;
-        -moz-border-radius: 10px ;
-        -webkit-border-radius: 10px ;
-    }
-
-    img.header-img {
-        height: 140px;
-        border: 1px solid black;
-        border-radius: 10px ;
-        -moz-border-radius: 10px ;
-        -webkit-border-radius: 10px ;
-    }
-
-    img.rounded {
-        border: 1px solid #eeeeee;
-        border-radius: 10px ;
-        -moz-border-radius: 10px ;
-        -webkit-border-radius: 10px ;
-    }
-
     a:link,a:visited
     {
         color: #1367a7;
@@ -69,55 +50,28 @@
         color: #208799;
     }
 
-    td.dl-link {
-        height: 160px;
-        text-align: center;
-        font-size: 22px;
-    }
-
-    .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow:
-                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
-                5px 5px 0 0px #fff, /* The second layer */
-                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
-                10px 10px 0 0px #fff, /* The third layer */
-                10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
-                15px 15px 0 0px #fff, /* The fourth layer */
-                15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
-                20px 20px 0 0px #fff, /* The fifth layer */
-                20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
-                25px 25px 0 0px #fff, /* The fifth layer */
-                25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
-        margin-left: 10px;
-        margin-right: 45px;
-    }
-
-
-    .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow:
-                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
-                5px 5px 0 0px #fff, /* The second layer */
-                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
-                10px 10px 0 0px #fff, /* The third layer */
-                10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 30px;
-        margin-bottom: 5px;
-    }
-
-    .vert-cent {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    hr
-    {
+    hr {
         border: 0;
         height: 1.5px;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
+    
+    div {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+    .caption {
+      font-size: 14px;
+      font-style: italic;
+      /* text-align: center; */
+      text-align: justify;
+      text-justify: inter-word;
+    }
+    .bigvideo {
+      /* loop controls muted autoplay */
+      width: 1000px;
+    }
+
 </style>
 
 <html>
@@ -132,43 +86,24 @@
   <body>
     <br>
     <center>
-    <span style="font-size:42px">Humans in 4D: <br> Reconstructing and Tracking Humans with Transformers</span>
-
+    <span style="font-size:40px">Humans in 4D: <br> Reconstructing and Tracking Humans with Transformers</span>
     </center>
 
     <br><br>
       <table align=center width=1000px>
        <tr>
-        <td align=center width=100px>
         <center>
-        <span style="font-size:20px"><a href="http://www.eecs.berkeley.edu/~shubham-goel/">Shubham Goel</a></span>
+          <span style="font-size:20px"><a href="http://www.eecs.berkeley.edu/~shubham-goel/">Shubham Goel</a></span> &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          <span style="font-size:20px"><a href="https://geopavlakos.github.io/">Georgios Pavlakos</a></span> &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          <span style="font-size:20px"><a href="http://people.eecs.berkeley.edu/~jathushan/">Jathushan Rajasegaran</a></span> &nbsp;&nbsp;&nbsp;&nbsp;
+              
+          <span style="font-size:20px"><a href="http://www.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa<sup>*</sup> </a></span> &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          
+          <span style="font-size:20px"><a href="http://www.eecs.berkeley.edu/~malik/">Jitendra Malik<sup>*</sup> </a></span>
         </center>
-        </td>
-        <td align=center width=100px>
-        <center>
-        <span style="font-size:20px"><a href="https://geopavlakos.github.io/">Georgios Pavlakos</a></span>
-        </center>
-        </td>
-        <td align=center width=100px>
-        <center>
-        <span style="font-size:20px"><a href="http://people.eecs.berkeley.edu/~jathushan/">Jathushan Rajasegaran</a></span>
-        </center>
-        </td>
-    <!-- </tr>
-   </table>
-   <table align=center width=800px>
-    <tr> -->
-        <td align=center width=100px>
-        <center>
-        <span style="font-size:20px"><a href="http://www.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa <sup>*</sup> </a></span>
-        </center>
-        </td>
-
-        <td align=center width=100px>
-        <center>
-        <span style="font-size:20px"><a href="http://www.eecs.berkeley.edu/~malik/">Jitendra Malik <sup>*</sup> </a></span>
-        </center>
-        </td>
      </tr>
     </table>
 
@@ -182,7 +117,7 @@
         </tr>
     </table>
 
-    <br>
+    <!-- <br>
     <table align=center width=700px>
         <tr>
             <td align=center width=100px>
@@ -191,35 +126,23 @@
                 </center>
             </td>
         </tr>
-    </table>
-
-
-    <!-- <table align=center width=700px>
-       <tr>
-        <td align=center width=100px>
-        <center>
-        <span style="font-size:20px">University of California, Berkeley<br/>Under Submission
-            <br><br>
-            Please do not share publicly
-        </span>
-        </center>
-        </td>
-     </tr>
-       <tr>
-        <td align=center width=100px>
-        <center>
-        <span style="font-size:20px"></span>
-        </center>
-        </td>
-     </tr>
     </table> -->
+
 
     <br>
     <table align=center width=400px>
      <tr>
        <td align=center width=100px>
        <center>
-       <span style="font-size:20px"><a href="https://arxiv.org/pdf/2305.20091.pdf">[Paper]</a></span>
+       <span style="font-size:20px">
+        <a href="https://arxiv.org/pdf/2305.20091.pdf">
+          <svg style="width:36px;height:36px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z" />
+          </svg>
+          <br>
+          Paper
+        </a>
+      </span>
        </center>
        </td>
 
@@ -238,18 +161,42 @@
 
       <td align=center width=100px>
       <center>
-      <span style="font-size:20px"><a href="https://github.com/shubham-goel/4D-Humans">[Code]</a></span>
+      <span style="font-size:20px">
+        <a href="https://github.com/shubham-goel/4D-Humans">
+          <svg style="width:36px;height:36px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+          <br>
+          Code
+        </a>
+      </span>
       </center>
       </td>
 
       <td align=center width=100px>
       <center>
-      <span style="font-size:20px"><a href="https://huggingface.co/spaces/brjathu/HMR2.0">[Online Demo]</a></span>
+      <span style="font-size:20px">
+        <a href="https://huggingface.co/spaces/brjathu/HMR2.0">
+          <img style="width:36px;height:36px" src = "resources/huggingface_logo-noborder.svg" alt="Huggging Faces Demo"/>
+          <br>
+          Demo
+        </a>
+      </span>
       </center>
       </td>
 
+      <td align=center width=100px>
+        <center>
+        <span style="font-size:20px">
+          <a href="https://colab.research.google.com/drive/1Ex4gE5v1bPR3evfhtG7sDHxQGsWwNwby">
+            <img style="width:36px;height:36px" src = "resources/Google_Colaboratory_SVG_Logo.svg" alt="Google Colab Demo"/>
+            <br>
+            Colab
+          </a>
+        </span>
+        </center>
+        </td>
+  
    </tr>
-  </table>
+    </table>
 
             <br>
             <br>
@@ -257,130 +204,80 @@
                 <tr>
                     <td width=1000px>
                       <center>
-                          <video loop controls muted autoplay width="1000px">
+                          <video loop controls muted autoplay class="bigvideo">
                             <source src="https://people.eecs.berkeley.edu/~shubham-goel/projects/4DHumans/resources/videos/video1.mp4" type="video/mp4">
-                            </video>
+                          </video>
                     </center>
                     </td>
                 </tr>
-                    <td width=200px>
-                      <center>
-                          <span style="font-size:14px"><i>We present an approach that, given any video in the wild, can jointly reconstruct the underlying humans in 3D, and track them over time. 
+                <tr>
+                    <td width=200px class="caption">
+                          We present an approach that, given any video in the wild, can jointly reconstruct the underlying humans in 3D, and track them over time. 
                             <!-- At the core, is HMR 2.0, our robust model for recovering human meshes from single images.  -->
                             Here, we show the input video on the left, and the reconstructed humans on the right, wihtout any temporal smoothness, with colors indicating track identities over time. Our approach works reliably on usual and unusual poses, under poor visibility, extreme truncations and extreme occlusions.
-                    </center>
                     </td>
                 </tr>
             </table>
 
             <br><br>
             <!-- Bold abstract subtitle -->
-            <h4>Abstract</h4>
-            We present an approach to reconstruct humans and track them over time. At the core of our approach, we propose a fully "transformerized" version of a network for human mesh recovery. This network, HMR 2.0, advances the state of the art and shows the capability to analyze unusual poses that have in the past been difficult to reconstruct from single images. To analyze video, we use 3D reconstructions from HMR 2.0 as input to a tracking system that operates in 3D. This enables us to deal with multiple people and maintain identities through occlusion events. Our complete approach, 4DHumans, achieves state-of-the-art results for tracking people from monocular video. Furthermore, we demonstrate the effectiveness of HMR 2.0 on the downstream task of action recognition, achieving significant improvements over previous pose-based action recognition approaches.
+            <hr>
+            <div>
+              <h1>Abstract</h1>
+              We present an approach to reconstruct humans and track them over time. At the core of our approach, we propose a fully "transformerized" version of a network for human mesh recovery. This network, HMR 2.0, advances the state of the art and shows the capability to analyze unusual poses that have in the past been difficult to reconstruct from single images. To analyze video, we use 3D reconstructions from HMR 2.0 as input to a tracking system that operates in 3D. This enables us to deal with multiple people and maintain identities through occlusion events. Our complete approach, 4DHumans, achieves state-of-the-art results for tracking people from monocular video. Furthermore, we demonstrate the effectiveness of HMR 2.0 on the downstream task of action recognition, achieving significant improvements over previous pose-based action recognition approaches.
+            </div>
             <br><br>
+            <hr>
 
-                <hr>
+            <h1>Approach</h1>
+            <table>
+                <tr>
+                  <img class="round" style="width:1000px" src="./approach.png"/>
+                </tr>
+                <tr>
+                  <td class="caption">
+                    Left: HMR 2.0 is a fully "transformerized" version of a network for Human Mesh Recovery, containing a ViT and a cross-attention-based transformer decoder. 
+                    Right: We use HMR 2.0 as the backbone of our 4DHumans system, that builds on <a href="https://people.eecs.berkeley.edu/~jathushan/PHALP/">PHALP</a>, to jointly reconstruct and track humans in 4D.
+                  </td>
+              </tr>
+              </table>
+              <br>
+              <hr>
 
-                <center><h1>Approach</h1></center>
-        
-                <table align=center width=1000px>
-                        <tr>
-                          <center>
-                            <!-- <a href='https://github.com/shubham-goel/4D-Humans'> -->
-                              <img class="round" style="height:400" src="./approach.png"/>
-                          <!-- </a> -->
-                          </center>
-                      </tr>
+              <h1>Results</h1>
+              <h4>Comparisons to existing approaches</h4>
+              <table>
+                <tr>
+                  <td>
+                          <video loop controls muted autoplay class="bigvideo">
+                          <source src="https://people.eecs.berkeley.edu/~shubham-goel/projects/4DHumans/resources/videos/video2_comp.mp4" type="video/mp4">
+                          </video>
+                  </td>
+                </tr>
 
-                    <tr>
-                      <td width=600px>
-                        <center>
-                            <span style="font-size:14px"><i>Left: HMR 2.0 is a fully "transformerized" version of a network for Human Mesh Recovery, containing a ViT and a cross-attention-based transformer decoder. 
-                            Right: We use HMR 2.0 as the backbone of our 4DHumans system, that builds on <a href="https://people.eecs.berkeley.edu/~jathushan/PHALP/">PHALP</a>, to jointly reconstruct and track humans in 4D.</i>
-                      </center>
-                      </td>
-                  </tr>
-                  </table>
-                    <br>
-                  <hr>
-
-                <center><h1>Results</h1></center>
-                <!-- <center><h3>Reconstruction and tracking in the wild</h3></center>
-                <table align=center width=1000px>
-                  <tr>
-                    <td width=1000px>
-                      <center>
-                        <div class = "video">
-                          
-                            <video loop controls width="1000px">
-                            <source src="https://people.eecs.berkeley.edu/~shubham-goel/projects/4DHumans/resources/videos/video1.mp4" type="video/mp4">
-                            </video>
-
-                            
-
-                        </div>
-                      </center>
+                <tr>
+                    <td class="caption">
+                      We present comparisons to previous state-of-the-art approaches (PyMAF-X and PARE) for lifting humans to 3D. HMR 2.0 reconstructions are temporally stable, and are better aligned to the input video. The baselines have a lot of jitter and sometimes even fail completely on hard poses or unusual viewpoints.
                     </td>
-                  </tr>
-
-                    <tr>
-                        <td width=600px>
-                          <center>
-                              <span style="font-size:14px"><i>Human reconstruction and tracking results on videos in the wild. Music credits: <a href="https://vye16.github.io/slahmr/">SLAHMR</a>.</i>
-                        </center>
-                        </td>
-                    </tr>
-                </table>
-                <br> -->
-
-                <center><h4>Comparisons to existing approaches</h4></center>
-                <table align=center width=900px>
-                  <tr>
-                    <td width=900px>
-                      <center>
-                        <div class = "video">
-                          
-                            <video loop controls muted autoplay width="900px">
-                            <source src="https://people.eecs.berkeley.edu/~shubham-goel/projects/4DHumans/resources/videos/video2_comp.mp4" type="video/mp4">
-                            </video>
-
-                            
-
-                        </div>
-                      </center>
-                    </td>
-                  </tr>
-
-                    <tr>
-                        <td width=600px>
-                          <center>
-                              <span style="font-size:14px"><i>We present comparisons to previous state-of-the-art approaches (PyMAF-X and PARE) for lifting humans to 3D. HMR 2.0 reconstructions are temporally stable, and are better aligned to the input video. The baselines have a lot of jitter and sometimes even fail completely on hard poses or unusual viewpoints.</i>
-                        </center>
-                        </td>
-                    </tr>
+                </tr>
                 </table>
                 <br>
 
                 <center><h4>Side-View Visualizations</h4></center>
-                <table align=center width=900px>
+                <table align=center>
                   <tr>
-                    <td width=900px>
+                    <td>
                       <center>
-                        <div class = "video">
-                          
                                 <video loop controls muted autoplay width="700px">
                                 <source src="https://people.eecs.berkeley.edu/~shubham-goel/projects/4DHumans/resources/videos/video3_side.mp4" type="video/mp4">
                                 </video>
 
-                        </div>
                     </center>
                     </td>
                   </tr>
                   <tr>
-                      <td width=600px>
-                        <center>
-                            <span style="font-size:14px"><i>Here, we visualize the reocnstructed mesh from a novel view, in addition to the camera view. HMR 2.0 reconstructions are plausible and temporally stable, even when observed from a novel view, despite it being per-frame 3D reconstruction without temporal smoothness.</i>
-                      </center>
+                      <td class="caption">
+                        Here, we visualize the reocnstructed mesh from a novel view, in addition to the camera view. HMR 2.0 reconstructions are plausible and temporally stable, even when observed from a novel view, despite it being per-frame 3D reconstruction without temporal smoothness.
                       </td>
                   </tr>
                 </table>
@@ -391,13 +288,11 @@
                   <tr>
                     <td width=900px>
                       <center>
-                        <div class = "video">
                           
                                 <video loop controls width="900px">
                                 <source src="https://people.eecs.berkeley.edu/~shubham-goel/projects/4DHumans/resources/videos/video4_amodal.mp4" type="video/mp4">
                                 </video>
 
-                        </div>
                     </center>
                     </td>
                   </tr>
@@ -413,17 +308,17 @@
                 <hr>
 
 
+            <table align=center width=1000px>
+              <tr>
+                <td>
+                  <div>
+                    <h1>Acknowledgements</h1>
 
-            <table align=center width=1100px>
-                <tr>
-                    <td>
-                      <left>
-                <center><h1>Acknowledgements</h1></center>
-                This research was supported by the DARPA Machine Common Sense program, ONR MURI, as well as BAIR/BDD sponsors. We thank members of the BAIR community for helpful discussions. We also thank StabilityAI for their generous compute grant. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>. Music credits: <a href="https://vye16.github.io/slahmr/">SLAHMR</a>
-            </left>
-        </td>
-        </tr>
-        </table>
+                    This research was supported by the DARPA Machine Common Sense program, ONR MURI, as well as BAIR/BDD sponsors. We thank members of the BAIR community for helpful discussions. We also thank StabilityAI for their generous compute grant. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>. Music credits: <a href="https://vye16.github.io/slahmr/">SLAHMR</a>
+                  </div>
+                </td>
+              </tr>
+            </table>
 
         <br><br>
 </body>
