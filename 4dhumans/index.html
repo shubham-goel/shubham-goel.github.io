@@ -71,7 +71,26 @@
       /* loop controls muted autoplay */
       width: 1000px;
     }
-
+    .form-control[readonly] {
+        background-color: #e9ecef;
+        opacity: 1;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: calc(9rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 0.85rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        resize: none;
+    }
 </style>
 
 <html>
@@ -136,9 +155,10 @@
        <center>
        <span style="font-size:20px">
         <a href="https://arxiv.org/pdf/2305.20091.pdf">
-          <svg style="width:36px;height:36px" viewBox="0 0 24 24">
-            <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z" />
-          </svg>
+          <!-- <svg style="width:36px;height:36px" viewBox="0 0 24 24">
+            <path d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z" />
+          </svg> -->
+          <img style="width:36px;height:36px" src = "resources/paper.png" alt="Paper"/>
           <br>
           Paper
         </a>
@@ -163,7 +183,8 @@
       <center>
       <span style="font-size:20px">
         <a href="https://github.com/shubham-goel/4D-Humans">
-          <svg style="width:36px;height:36px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+          <!-- <svg style="width:36px;height:36px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg> -->
+          <img style="width:36px;height:36px" src = "resources/github-mark.svg" alt="Github code"/>
           <br>
           Code
         </a>
@@ -307,6 +328,24 @@
                 <br> -->
                 <hr>
 
+                <table align=center width=1000px>
+                  <tr>
+                    <td>
+                      <div>
+                      <h1>Citation</h1>
+<textarea id="bibtex" class="form-control" readonly>@article{goel2023humans,
+  title={Humans in 4{D}: Reconstructing and Tracking Humans with Transformers},
+  author={Goel, Shubham and Pavlakos, Georgios and Rajasegaran, Jathushan and Kanazawa, Angjoo and Malik, Jitendra},
+  journal={arXiv preprint arXiv:2305.20091},
+  year={2023}
+}</textarea>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <br>
+              <hr>
+                
 
             <table align=center width=1000px>
               <tr>
@@ -314,7 +353,7 @@
                   <div>
                     <h1>Acknowledgements</h1>
 
-                    This research was supported by the DARPA Machine Common Sense program, ONR MURI, as well as BAIR/BDD sponsors. We thank members of the BAIR community for helpful discussions. We also thank StabilityAI for their generous compute grant. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>. Music credits: <a href="https://vye16.github.io/slahmr/">SLAHMR</a>
+                    This research was supported by the DARPA Machine Common Sense program, ONR MURI, as well as BAIR/BDD sponsors. We thank members of the BAIR community for helpful discussions. We also thank StabilityAI for their generous compute grant. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>. Music credits: <a href="https://vye16.github.io/slahmr/">SLAHMR</a>. Icons: <a href="https://www.flaticon.com/free-icon/paper_2541988" title="paper icons"> Flaticon</a>.
                   </div>
                 </td>
               </tr>
